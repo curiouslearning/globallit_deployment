@@ -27,7 +27,7 @@ These instructions assume an OS X computer connected to internet.  Many steps re
         $ cd ~
         $ mkdir projects
         $ cd projects
-        $ git clone _______________________
+        $ git clone git@github.com:thegloballiteracyproject/globallit_deployment.git
         
 6. Download commissioning image. (replace <COMMISIONING_IMAGE_URL> with supplied url)
 
