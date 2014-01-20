@@ -32,12 +32,12 @@ These instructions assume an OS X computer connected to internet.  Many steps re
 6. Download commissioning image. (replace <COMMISIONING_IMAGE_URL> with supplied url)
 
         $ cd ~/projects/globallit_deployment/images
-        $  wget -r --no-parent --reject "index.html*" <COMMISIONING_IMAGE_URL>
+        $  wget -r --no-parent --reject "index.html*" -nH --cut-dirs=2 <COMMISIONING_IMAGE_URL>
 
 7. Download setup script (replace <SETUP_SCRIPT_URL> with supplied url)
 
         $ cd ~/projects/globallit_deployment/scripts
-        $  wget -r --no-parent --reject "index.html*" <SETUP_SCRIPT_URL>
+        $  wget -r --no-parent --reject "index.html*" -nH --cut-dirs=2 <SETUP_SCRIPT_URL>
 
 7. Adjust deployment parameters by editing ~/projects/scripts/setup.sh with supplied values
 
