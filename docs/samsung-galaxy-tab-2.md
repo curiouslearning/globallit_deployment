@@ -11,7 +11,7 @@ These instructions assume an OS X computer connected to internet.  Many steps re
 
 3. Download and Install Android Developer Toolkit: [http://developer.android.com/sdk/index.html](http://developer.android.com/sdk/index.html)
 4. Download and Install Heimdall (make sure command line tool is installed): [http://glassechidna.com.au/heimdall/](http://glassechidna.com.au/heimdall/)
-4. Install Homebrew on your machine
+4. Install [Homebrew](http://brew.sh/) on your machine
 
         $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
         
