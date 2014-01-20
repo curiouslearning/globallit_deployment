@@ -35,6 +35,7 @@ These instructions assume an OS X computer connected to internet.  Many steps re
         $ wget <COMMISIONING_IMAGE_URL>
 
 7. Download setup script (replace <SETUP_SCRIPT_URL> with supplied url)
+
         $ cd ~/projects/globallit_deployment/images
         $ wget <SETUP_SCRIPT_URL>
 
