@@ -27,11 +27,11 @@ These instructions assume an OS X computer connected to internet.  Many steps re
         $ cd ~
         $ mkdir projects
         $ cd projects
-        $ git clone git@github.com:thegloballiteracyproject/globallit_deployment.git
+        $ git clone https://github.com/thegloballiteracyproject/globallit_deployment.git
         
 6. Download commissioning image. (replace <COMMISIONING_IMAGE_URL> with supplied url)
 
-        $ cd ~/projects/globallit_deployment/images
+        $ cd ~/projects/globallit_deployment/
         $  wget -r --no-parent --reject "index.html*" -nH --cut-dirs=2 <COMMISIONING_IMAGE_URL>
 
 7. Download setup script (replace <SETUP_SCRIPT_URL> with supplied url)
