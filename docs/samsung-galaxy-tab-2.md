@@ -20,6 +20,7 @@ These instructions assume an OS X computer connected to internet.  Many steps re
 
         $ brew update
         $ brew install git
+        $ brew install wget
 
 
 5. Set up commissioning environment
