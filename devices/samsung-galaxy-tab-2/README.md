@@ -58,7 +58,7 @@ These instructions assume an OS X computer connected to internet.  Many steps re
 
         $ cd ~/projects/globallit_deployment
         $ source ./scripts/setup.sh
-        $ source ./scripts/deploy.sh TABLET_ID
+        $ ./scripts/deploy.sh TABLET_ID
 
 
     You should see something like:
