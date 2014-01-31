@@ -1,2 +1,3 @@
 #!/bin/bash
-./devices/$DEVICE/deploy.sh $*
+source ./deployment/$1/setup.sh
+./devices/$DEVICE/deploy.sh $2
