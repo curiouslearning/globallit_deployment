@@ -1,10 +1,9 @@
 .DS_Store
 /sdcard-ext
-./scripts/openrecoveryscript
 ./scripts/setup.sh
-/scripts/openrecoveryscript
 
 /scripts/setup.sh
 
 /devices/samsung-galaxy-tab-2/openrecoveryscript
 /deployment/
+openrecoveryscript
