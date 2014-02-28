@@ -9,7 +9,11 @@ print "Starting restore Install..."
 restore SDCARD_EXT/VERSION
 
 print "Customizing..."
+cmd mkdir -p SDCARD_INT/Android/data/edu.mit.media.prg.mentoring_app/files
+cmd cp SDCARD_EXT/sdcard/apps.json SDCARD_INT/Android/data/edu.mit.media.prg.mentoring_app/files
 cmd echo "LABEL" > SDCARD_INT/label.txt
 cmd echo "VERSION" > SDCARD_INT/version.txt
 cmd echo -e 'network={\n\tssid="WIFI_SSID"\n\tpsk="WIFI_PASSWORD"\n\tkey_mgmt=WPA-PSK\n\tpriority=2\n}' >> /data/misc/wifi/wpa_supplicant.conf
+cmd mkdir -p SDCARD_INT/Movies
+cmd cp SDCARD_EXT/Movies/*.* SDCARD_INT/Movies/
 print "Finished."
